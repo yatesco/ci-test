@@ -1,0 +1,6 @@
+test:
+  override:
+    - lein do clean, test, jar
+general:
+  artifacts:
+    - "target/*.jar"
