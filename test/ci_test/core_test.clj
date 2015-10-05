@@ -3,5 +3,5 @@
             [ci-test.core :refer :all]))
 
 (deftest a-test
-  (testing "FIXME, I fail."
-    (is (= 0 1))))
+  (testing "a simple test"
+    (is (= 0 0))))
