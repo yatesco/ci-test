@@ -1,3 +1,10 @@
 language: clojure
 lein: lein2
 script: lein do clean, test, jar
+deploy:
+  provider: releases
+  api_key:
+    secure: IL7gj1GUs+6f/suuQEAI7eATZ4+LEEvJrMM0bq1+4aL/Erxux5hfy/q0HOccrLEyAFBdN7x0C1FMyNlCOCpvGNpK4xVkM5S6qS+bxmolKmprJS9xVQqpDgsKukJ97WTl046fRW3Q5aOs3TQmDXUNbSa5Vey//ND7/0kxiBZkJTqvQgcYuTJkaWmLas0OoYNVcH5j0I/vXQxF9CGQndAy7D/BR+b/SVcqMrWvF+ddK2TYpXu0HREVtFniRbfLYzOxgcdDajDLD6eNftl8zKX6CMSALK0Q5hsJa4Qj5Gfkhh8DdiYxU7En4341ddRzseRNWpQ184RwtRpq9FKI0K0u42u1vs6Y3uV+KcRxPp3NOzA0+4wF0FgisLiFzvtlwXXJ1V8jfjwxnCE97QwN7ZjWsEObc17LeKwgy/9wZIDRs5aKcg5SeZqarINvXLzmGN/EPtm8i1Uy+EJpQg7A6ONzx+7cvVm9ul0W4HrJFoYjtIbdfiNCDrWryAtY4EXu1Wq7bCcZXofxAKGMU2JtGAZcLbPMcQNdzSa1fHRXmfWwDZtmQnkyNEtLkjrBVfuiPalt8CDHg8w36+SbT5ihJxLWsFJ8/iAix7DIx4VpucR/7wWDZkfjZ05QgJZEfFNOPEDu256Gq/narASrTngkPGk7nDq+y8gW9vhxhXSDj57RowY=
+  file: 'target/ci-test-travis-0.1.0-SNAPSHOT.jar'
+  on:
+    tags: true
