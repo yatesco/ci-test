@@ -13,4 +13,4 @@
   (is (= 2 (a))))
 
 (deftest a-value-fails
-  (is (= 10 a-value)))
+  (is (= 20 a-value)))
