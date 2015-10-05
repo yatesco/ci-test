@@ -21,7 +21,7 @@ deploy:
   description: 'Release description'
   provider: GitHub
   auth_token:
-    secure: '14a461ec28061d6589c313ba373d8ec4e63c0fec' # your encrypted token from GitHub
+    secure: 'c5c15b507e38d0fb09cbaab6ec6ad1e63ffcc437'
   artifact: /target/.*\.jar/            # upload all NuGet packages to release assets
   draft: false
   prerelease: false
