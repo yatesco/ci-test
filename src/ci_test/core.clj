@@ -5,4 +5,4 @@
   [x]
   (println x "Hello, World!"))
 
-(defn a [] 1)
+(defn a [] 2)
