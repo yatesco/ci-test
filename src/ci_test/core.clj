@@ -6,3 +6,6 @@
   (println x "Hello, World!"))
 
 (defn a [] 2)
+
+(def a-value 10)
+
