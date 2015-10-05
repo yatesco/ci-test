@@ -5,4 +5,5 @@
 (deftest a-test
   (testing "a simple test"
     (is (= 0 0))
-    (is (= 1 1))))
+    (is (= 1 1))
+    (is (= 2 2))
