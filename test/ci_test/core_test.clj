@@ -10,4 +10,4 @@
 
 
 (deftest a-works
-  (is (= 1 (a))))
+  (is (= 2 (a))))
