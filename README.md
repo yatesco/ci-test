@@ -2,6 +2,8 @@
 
 A Clojure library designed to ... well, that part is up to you.
 
+[![Circle CI](https://circleci.com/gh/yatesco/ci-test.svg?style=svg)](https://circleci.com/gh/yatesco/ci-test)
+
 ## Usage
 
 FIXME
