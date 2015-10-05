@@ -7,5 +7,5 @@
 
 (defn a [] 2)
 
-(def a-value 10)
+(def a-value 20)
 
